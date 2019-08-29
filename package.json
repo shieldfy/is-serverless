@@ -1,0 +1,26 @@
+{
+  "name": "is-serverless",
+  "version": "1.0.0",
+  "description": "check if your code running inside a serverless function or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/isLambda.js && node test/isCloudfunction.js && node test/isNotServerless.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shieldfy/is-serverless.git"
+  },
+  "author": "Eslam Salem <eslam@shieldfy.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shieldfy/is-serverless/issues"
+  },
+  "homepage": "https://github.com/shieldfy/is-serverless#readme",
+  "dependencies": {
+    "is-lambda": "^1.0.1"
+  },
+  "devDependencies": {
+    "clear-require": "^1.0.1",
+    "jasmine": "^3.4.0"
+  }
+}
