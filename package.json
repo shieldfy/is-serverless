@@ -20,7 +20,5 @@
     "is-lambda": "^1.0.1"
   },
   "devDependencies": {
-    "clear-require": "^1.0.1",
-    "jasmine": "^3.4.0"
   }
 }
