@@ -4,7 +4,7 @@
   "description": "check if your code running inside a serverless function or not",
   "main": "index.js",
   "scripts": {
-    "test": "node test/isLambda.js && node test/isCloudfunction.js && node test/isNotServerless.js"
+    "test": "node test/isLambda.js && node test/isCloudfunction.js && node test/isAzurefunction.js && node test/isCloudflareworker.js && node test/isNotServerless.js"
   },
   "repository": {
     "type": "git",

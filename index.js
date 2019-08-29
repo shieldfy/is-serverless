@@ -4,7 +4,11 @@ var serverlessFn = require('./lib')
 
 var isServerless = function()
 {
-    return ( serverlessFn.isLambda && 'AWS' ) || ( serverlessFn.isCloudfunction && 'GCP' )
+    return  ( serverlessFn.isAWSLambda && 'AWS' ) || 
+                ( serverlessFn.isGCPCloudfunction && 'GCP' ) ||
+                    ( serverlessFn.isAzureFunction && 'Azure' ) ||
+                        ( serverlessFn.isCloudflareWorker && 'Cloudflare' )
+            
 }
 
 var result = isServerless();
