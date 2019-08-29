@@ -9,6 +9,6 @@ var isServerless = function()
 
 var result = isServerless();
 
-module.exports.isIt = result ? true : false;
+module.exports.result = result ? true : false;
 
 module.exports.whichOne = result;
