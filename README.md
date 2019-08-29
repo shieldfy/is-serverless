@@ -1,6 +1,6 @@
 # is-serverless
 
-Detection library for serverless environment, currently supports ([AWS Lambda](https://aws.amazon.com/lambda/), [GCP cloud functions], [Azure functions], [Cloudflare workers])
+Detection library for serverless environment, currently supports ([AWS Lambda](https://aws.amazon.com/lambda/), [GCP cloud functions](https://cloud.google.com/functions/), [Azure functions](https://azure.microsoft.com/en-in/services/functions/), [Cloudflare workers](https://workers.cloudflare.com))
 
 ## Inspiration
 
